@@ -1,0 +1,22 @@
+GET https://api.b7web.com.br/carros/api/carros HTTP/1.1
+### 
+
+//pessoa
+//Solicitar uma pessoa
+GET http://localhost:5000/pessoas/1 HTTP/1.1
+###
+//Soliciatar lista de pessoas
+GET http://localhost:5000/pessoas
+###
+//Criar pessoa lista de pessoas
+POST http://localhost:5000/pessoas
+content-type: application/json
+{ 
+    "nome": "Marcos Silva",
+    "ativo": true,
+    "email": "Marcos@mailteste.com",
+    "role": "estudante"
+}
+###
+
+
